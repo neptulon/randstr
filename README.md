@@ -23,13 +23,13 @@ func main() {
 The default alphabet contains 'space', 'dot', 'exclamation mark', and upper and lowercase English alphabetic characters:
 
 ```go
-	var Alphabet = []rune(". !abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+var Alphabet = []rune(". !abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 ```
 
 You can replace the alphabet used in creating the random string via reassigning the `Alphabet` variable:
 
 ```go
-	randstr.Alphabet = []rune("abcdefg1234567")
+randstr.Alphabet = []rune("abcdefg1234567")
 ```
 
 ## License
