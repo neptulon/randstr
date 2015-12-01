@@ -14,7 +14,7 @@ import (
 
 func main() {
 	str := randstr.Get(96)
-	// str: VkNT!pQXdtHgyffWMIqNZcnOECWhVYYafBGTDjJvE  PlyaWs!UKiKxGQkquNafewfcU ECXgQfYtyZkFIXEJmIYVPRYaIzh
+	// str: "VkNT!pQXdtHgyffWMIqNZcnOECWhVYYafBGTDjJvE  PlyaWs!UKiKxGQkquNafewfcU ECXgQfYtyZkFIXEJmIYVPRYaIzh"
 }
 ```
 
